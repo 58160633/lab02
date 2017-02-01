@@ -1,81 +1,26 @@
- 
-body{
-  font:1.2em normal Arial,sans-serif;
-  color:#34495E;
+/*table*/
+body {
+  font: normal medium/1.4 sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.highlight {
+  background: yellow;
 }
 
-h1{
-  text-align:center;
-  text-transform:uppercase;
-  letter-spacing:-2px;
-  font-size:2.5em;
-  margin:20px 0;
-}
-
-.container{
-  width:90%;
-  margin:auto;
-}
-
-table{
-  border-collapse:collapse;
-  width:100%;
-}
-
-.blue{
-  border:2px solid #1ABC9C;
-}
-
-.blue thead{
-  background:#1ABC9C;
-}
-
-.purple{
-  border:2px solid #9B59B6;
-}
-
-.purple thead{
-  background:#9B59B6;
-}
-
-thead{
-  color:white;
-}
-
-th,td{
-  text-align:center;
-  padding:5px 0;
-}
-
-tbody tr:nth-child(even){
-  background:#ECF0F1;
-}
-
-tbody tr:hover{
-background:#BDC3C7;
-  color:#FFFFFF;
-}
-
-.fixed{
-  top:0;
-  position:fixed;
-  width:auto;
-  display:none;
-  border:none;
-}
-
-.scrollMore{
-  margin-top:600px;
-}
-
-.up{
-  cursor:pointer;
-}
-
-
-/*gell*/
+/*Gallery*/
 div.img {
+    margin: 5px;
     border: 1px solid #ccc;
+    float: center;
+    width: 180px;
 }
 
 div.img:hover {
@@ -91,67 +36,3 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/*home*/
-body {
-  padding-left: 11em;
-  font-family: Georgia, "Times New Roman",
-        Times, serif;
-  color: purple;
-  background-color: #d8da3d }
-ul.navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em }
-h1 {
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif }
-ul.navbar li {
-  background: white;
-  margin: 0.5em 0;
-  padding: 0.3em;
-  border-right: 1em solid black }
-ul.navbar a {
-  text-decoration: none }
-a:link {
-  color: blue }
-a:visited {
-  color: purple }
-address {
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top: thin dotted }
