@@ -1,7 +1,30 @@
 /*table*/
-body {
-  font: normal medium/1.4 sans-serif;
-}
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 90em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: blue }
+a:visited {
+  color: black }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
 table {
   border-collapse: collapse;
   width: 100%;
@@ -16,15 +39,41 @@ th, td {
 }
 
 /*Gallery*/
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 90em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: blue }
+a:visited {
+  color: black }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
 div.img {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     float: center;
     width: 180px;
 }
 
 div.img:hover {
-    border: 1px solid #777;
+    border: 1px solid black;
 }
 
 div.img img {
@@ -36,3 +85,37 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
+/*Body*/
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: black;
+  background-color:lightseagreen }
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: blue }
+a:visited {
+  color: black }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
